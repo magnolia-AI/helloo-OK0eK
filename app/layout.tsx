@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
-      <body className={}>
+      <body>
         <ThemeProvider defaultTheme="light" attribute="class">
           {/* Header with Navigation */}
           <header className="bg-amber-900 text-white sticky top-0 z-50">
